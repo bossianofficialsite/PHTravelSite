@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filz Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Permanent+Marker|Roboto+Slab" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60b0971689.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="shortcut">
+        <a href="#">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+    <nav>
+        <label class="logo">Fil<span>z</span> Agency</label>
+        <ul id="navbar">
+            <li>
+                <a href="#explore">Explore</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#packages">Packages</a>
+            </li>
+            <li>
+                <a href="#shop">Shop</a>
+            </li>
+            <li>
+                <a href="#team">Team</a>
+            </li>
+            <li>
+                <a href="#contact">Help</a>
+            </li>
+            <li>
+                <a href="#contact">About</a>
+            </li>
+        </ul>
+        <div id="toggle"></div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <h1>Explore the Philippines</h1>
+            <p>Discover the wonders of every region, the safe way. Know the latest advisories before visiting your favorite local tourist spots. Save Our Spots. View Events & Festivals, and our travel team is a full of service.</p>
+            <a href="#explore">
+                Learn More
+            </a>
+        </div>
+    </section>
+    <section id="explore">
+        <div class="content">
+            <div class="plain">
+                <div class="exp-top">
+                    <h2>Take a Flight</h2>
+                    <p><span>Click</span> any of <span>3 major island</span> to show to you the top tourist spots in Luzon, Visaya, and Mindanao.</p>
+                </div>
+                <div class="exp-bottom">
+                    <img src="./images/plane.png" />
+                </div>
+            </div>
+            <div class="map">
+                <a class="luzon" href="#packages">
+                    <img src="./images/luzon.png" />
+                </a>
+                <a class="visayas" href="#visayas">
+                    <img src="./images/visaya.png" />
+                </a>
+                <a class="mindanao" href="#mindanao">
+                    <img src="./images/mindanao.png" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="packages">
+        <br>
+        <div class="content-top">
+           <div class="label">
+               <label>Luzon</label>
+           </div>
+           <div class="search">
+               <input type="text" placeholder="Search here.." >
+               <input type="submit" value="Search" >
+           </div>
+        </div>
+        <div class="content-bottom">
+                <input type="radio" name="places" id="i1" checked>
+                <input type="radio" name="places" id="i2">
+                <input type="radio" name="places" id="i3">
+                <input type="radio" name="places" id="i4"> 
+            <div class="card" id="one1">
+                <div class="place" >
+                    <img src="./images/kayangan-lake.jpg" >
+                </div>
+                <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Kayangan Lake</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    <p>$99.00 <span>$170.00</span></p>
+                    <button>Get</button>
+                </div>
+            </div>
+            <div class="card" id="one2">
+                <div class="place">
+                    <img src="./images/banaue-rice.jpg" >
+                </div>
+                <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Banaue Rice Terraces</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    <p>$89.00 <span>$150.00</span></p>
+                    <button>Get</button>
+                </div>
+            </div>
+            <div class="card" id="one3">
+                <div class="place">
+                    <img src="./images/puerto.jpg" >
+                </div>
+                <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Puerto Princesa</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    <p>$119.00 <span>$200.00</span></p>
+                    <button>Get</button>
+                </div>
+            </div>
+            <div class="card" id="one4">
+                <div class="place">
+                    <img src="./images/intramuros.jpg" >
+                </div>
+                <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Intramuros</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    <p>$99.00 <span>$170.00</span></p>
+                    <button>Get</button>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <label for="i1" class="dots"></label>
+                <label for="i2" class="dots"></label>
+                <label for="i3" class="dots"></label>
+                <label for="i4" class="dots"></label>
+            </div>
+        </div>
+    </section>
+    <section id="visayas">
+        <br>
+        <div class="content-top">
+            <div class="label">
+                <label>Visayas</label>
+            </div>
+         </div>
+         <div class="content-bottom">
+                 <input type="radio" name="places" id="v1" checked>
+                 <input type="radio" name="places" id="v2">
+                 <input type="radio" name="places" id="v3">
+                 <input type="radio" name="places" id="v4"> 
+             <div class="card" id="one1v">
+                 <div class="place" >
+                     <img src="./images/lakawon island.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Lakawon Island</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$89.00 <span>$160.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="card" id="one2v">
+                 <div class="place">
+                     <img src="./images/chocolate-hills.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Chocolate Hills</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$89.00 <span>$150.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="card" id="one3v">
+                 <div class="place">
+                     <img src="./images/mount-kanlaon.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Mount Kanlaon</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$109.00 <span>$180.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="card" id="one4v">
+                 <div class="place">
+                     <img src="./images/fort-san-pedro.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Fort San Pedro</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$109.00 <span>$180.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="nav-bar">
+                 <label for="v1" class="dots"></label>
+                 <label for="v2" class="dots"></label>
+                 <label for="v3" class="dots"></label>
+                 <label for="v4" class="dots"></label>
+             </div>
+         </div>
+    </section>
+    <section id="mindanao">
+        <br>
+        <div class="content-top">
+            <div class="label">
+                <label>Mindanao</label>
+            </div>
+         </div>
+         <div class="content-bottom">
+                 <input type="radio" name="places" id="m1" checked>
+                 <input type="radio" name="places" id="m2">
+                 <input type="radio" name="places" id="m3">
+                 <input type="radio" name="places" id="m4"> 
+             <div class="card" id="one1m">
+                 <div class="place" >
+                     <img src="./images/camiguin.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Camiguin</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$89.00 <span>$160.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="card" id="one2m">
+                 <div class="place">
+                     <img src="./images/cloud9.jpg" >
+                 </div>
+                 <div class="info">
+                    <p><i class="fas fa-map-marker-alt"></i> Camiguin</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    <p>$89.00 <span>$160.00</span></p>
+                    <button>Get</button>
+                </div>
+             </div>
+             <div class="card" id="one3m">
+                 <div class="place">
+                     <img src="./images/guyam-island.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Guyam Island</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$109.00 <span>$180.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="card" id="one4m">
+                 <div class="place">
+                     <img src="./images/naked-island.jpg" >
+                 </div>
+                 <div class="info">
+                     <p><i class="fas fa-map-marker-alt"></i> Naked Island</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam. . .</p>
+                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                     <p>$109.00 <span>$180.00</span></p>
+                     <button>Get</button>
+                 </div>
+             </div>
+             <div class="nav-bar">
+                 <label for="m1" class="dots"></label>
+                 <label for="m2" class="dots"></label>
+                 <label for="m3" class="dots"></label>
+                 <label for="m4" class="dots"></label>
+             </div>
+         </div>
+    </section>
+    <section id="shop">
+        <br>
+        <div class="container">
+            <div class="gd1" id="gd1" style="box-shadow: none;">
+                <img src="./images/shop-img.svg" >
+                <label>Visit the official shop store of Fil<span>Z</span>!!</label>
+                <button class="go-now">Go Now</button>
+            </div>
+            <div class="gd2">
+                <p>50% OFF</p>
+                <p>$4.00 <span>$8.00</span></p>
+                <div class="shop-items">
+                    <img src="./images/black.png" />
+                </div>
+                <div class="shop-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+            <div class="gd3">
+                <p></p>
+                <p>$8.00</p>
+                <div class="shop-items">
+                    <img src="./images/black2.png" />
+                </div>
+                <div class="shop-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+            <div class="gd4">
+                <p>50% OFF</p>
+                <p>$4.00 <span>$8.00</span></p>
+                <div class="shop-items">
+                    <img src="./images/gray.png" />
+                </div>
+                <div class="shop-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+            <div class="gd5">
+                <p>50% OFF</p>
+                <p>$7.00 <span>$14.00</span></p>
+                <div class="shop-items">
+                    <img src="./images/bag1.png" />
+                </div>
+                <div class="shop-size">
+                    <div style="background: rgb(124, 255, 36)">M</div>
+                    <div style=" background: #000; color: #fff;">XL</div>
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+            <div class="gd6">
+                <p>50% OFF</p>
+                <p>$8.00 <span>$16.00</span></p>
+                <div class="shop-items">
+                    <img src="./images/bag2.png" />
+                </div>
+                <div class="shop-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+            <div class="gd7">
+                <p></p>
+                <p>$4.00</p>
+                <div class="shop-items">
+                    <img src="./images/neck-pillow.png" />
+                </div>
+                <div class="shop-size">
+                </div>
+                <button class="shop-btn">Purchase</button>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="content">
+            <div class="team-a">
+                <div id="teama-info">
+                   <p><span>Team Learder:</span> Dolcen Maria <br>
+                      <span>Members:</span> Marvin, Steph <br>
+                      <span>Service:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem harum in deserunt possimus inventore..<br>
+                   </p>
+                   <button>Get in touch</button>
+                </div>
+                <div class="team-rating">
+                    <div>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    </div>
+                    <div>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div>
+                        <i id="info" class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="team-img">
+                    <img src="./icon/woman.png" />
+                </div>
+            </div>
+            <div class="team-b">
+                <div id="teama-info2">
+                    <p><span>Team Learder:</span> David White <br>
+                       <span>Members:</span> Marvin, Steph <br>
+                       <span>Service:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem harum in deserunt possimus inventore..<br>
+                    </p>
+                    <button>Get in touch</button>
+                 </div>
+                <div class="team-rating">
+                    <div>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    </div>
+                    <div>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div>
+                        <i id="info2" class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="team-img">
+                    <img src="./icon/man.png" />
+                </div>
+            </div>
+            <div class="team-c">
+                <div id="teama-info3">
+                    <p><span>Team Learder:</span> Mark Lounge <br>
+                       <span>Members:</span> Marvin, Steph <br>
+                       <span>Service:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem harum in deserunt possimus inventore..<br>
+                    </p>
+                    <button>Get in touch</button>
+                 </div>
+                <div class="team-rating">
+                    <div>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    </div>
+                    <div>
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div>
+                        <i id="info3" class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="team-img">
+                    <img src="./icon/boy.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <form action="#" method="post">
+            <input type="text" required placeholder="Firstname">
+            <input type="text" required placeholder="Lastname">
+            <input type="email" required placeholder="Email" >
+            <label for="country">Where country are you in right now?</label>
+            <select name="country" class="country">
+                <option value="usa">USA</option>
+                <option value="france">France</option>
+                <option value="singapore">Singapore</option>
+                <option value="japan">Japan</option>
+                <option value="denmark">Denmark</option>
+                <option value="others">Others</option>
+            </select>
+            <label for="country">How can we help you?</label>
+            <textarea placeholder="Need help?"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <section id="about">
+        <div>
+            <div>
+                <p>Contact Us</p>
+                <p>Website Feedback</p>
+                <p>Customer Support</p>
+               <div>
+                   <div><i class="fab fa-facebook-f"></i></div>
+                   <div><i class="fas fa-envelope"></i></div>
+                   <div><i class="fab fa-twitter"></i></div>
+                   <div><i class="fab fa-youtube"></i></div>
+               </div>
+            </div>
+            <div>
+                <p>About</p>
+                <p>About TravelFilz.com</p>
+                <p>News</p>
+                <p>Service Guarantee</p>
+                <p>Careers</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Statement</p>
+            </div>
+            <div>
+                <p>Other Services</p>
+                <p>Investor Relations</p>
+                <p>TravelFilz Rewards</p>
+                <p>Affiliate Program</p>
+            </div>
+            <div class="payment">
+                <p>Payment Method</p>
+                <div>
+                    <div>
+                        <i class="fab fa-cc-visa"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="copy">
+        <p>Copyright © 2021 Ian Christian Loveña</p>
+    </section>
+
+
+
+
+    <script>
+        var toggle = document.getElementById('toggle');
+        var nav = document.getElementById('navbar');
+        var dot = document.getElementById('info');
+        var dot2 = document.getElementById('info2');
+        var dot3 = document.getElementById('info3');
+        var info = document.getElementById('teama-info');
+        var info2 = document.getElementById('teama-info2');
+        var info3 = document.getElementById('teama-info3');
+
+        document.onclick = function(e) {
+            if(e.target.id !== 'nav' && e.target.id !== 'toggle'){
+                toggle.classList.remove('active');
+                nav.classList.remove('active');
+
+            }
+        }
+        dot.onclick = function() {
+            info.classList.toggle('active');
+            dot.classList.toggle('active');
+        }
+        dot2.onclick = function() {
+            info2.classList.toggle('active');
+            dot2.classList.toggle('active');
+        }
+        dot3.onclick = function() {
+            info3.classList.toggle('active');
+            dot3.classList.toggle('active');
+        }
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+        /**
+            var initViewport = function () {
+            var metaEI = document.querySelector("#viewportMeta");
+            var content = "height="+ window.innerHeight + ", width=" + window.innerWidth + ",user-scalable=no";
+            metaEI.setAttribute('name', 'viewport');
+            metaEI.setAttribute('content', content);
+        }
+        initViewport();
+        **/
+    </script>
+</body>
+</html>
